@@ -1,0 +1,47 @@
+body{
+    
+    background: darkgray url('img/table.jpg') center center no-repeat;
+    background-size: cover;
+    color: burlywood;
+}
+
+#container{
+    width: 400px;
+    margin: 180px auto 0;
+    padding: 60px;
+    box-sizing: border-box;
+    background: url(img/paper-pattern.jpg) top left repeat;
+    
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+h1{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px gray;
+}
+
+form{
+    text-align: left;
+    display: block;;
+   
+    
+}
+#bill-amount{
+    margin-top: 10px;
+    width: 90px;
+    margin-bottom: 10px
+}
+#tip-percent{
+    width: 30px;
+}
+#tip-amount{
+    
+    width: 100px;
+}
+.slider{
+    display: inline;
+}
+
