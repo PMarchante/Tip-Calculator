@@ -26,13 +26,17 @@
                 </label>
 
                 <p id="tip-label" class="slider">Tip amount</p>
-
                 <input type="range" class="slider" id="tip-amount" min="0" max="50" value="10" step="1">
                 <p class="slider" id="tip-percent"></p>
                 <label>%</label><br>
                 
-                <label for="party-size">How many people are sharing the bill</label><br>
-                <input type="text" id="party-size"> people.<br>
+                
+                <span id="party">
+                    
+                <br><label for="party-size">How many people are sharing the bill?</label><br>
+                    <input type="text" id="party-size"> people.<br><br>
+                
+                </span>
 
                 <button type="button" id="calculate-tip">Calculate!</button>
             </form><!-- End form -->

@@ -11,7 +11,6 @@ body{
     padding: 60px;
     box-sizing: border-box;
     background: url(img/paper-pattern.jpg) top left repeat;
-    
     text-align: center;
     border-radius: 10px;
     
@@ -24,9 +23,8 @@ h1{
 }
 
 form{
-    text-align: left;
-    display: block;;
-   
+    text-align: center;
+    display: block;
     
 }
 #bill-amount{
@@ -38,10 +36,36 @@ form{
     width: 30px;
 }
 #tip-amount{
-    
     width: 100px;
 }
 .slider{
     display: inline;
+    
+    
+}
+#party-size{
+    width: 40px;
+    text-align: center;
+     
+    
+}
+#party{
+    text-align: right;
+}
+#total-tip{
+    margin-top: 10px;
+}
+button{
+    background-color:coral;
+    color: white;
+    border: none;
+    box-shadow: -3px 3px 3px black;
+    text-transform: uppercase;
+    font-size: 17;
+    padding: 10px 20px;
+    width: 100%;
 }
 
+button:hover{
+    
+}
