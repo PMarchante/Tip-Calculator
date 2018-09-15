@@ -56,7 +56,7 @@ form{
     margin-top: 10px;
 }
 button{
-    background-color:coral;
+    background-color: #ff8052;
     color: white;
     border: none;
     box-shadow: -3px 3px 3px black;
@@ -67,5 +67,34 @@ button{
 }
 
 button:hover{
-    
+    cursor: pointer;
+    background-color: #ff4400;
+}
+
+button:active{
+    position: relative;
+    top: 2px;
+}
+
+#total-tip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#total-tip:before{
+    content: "Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#total-tip sup{
+    font-size: 30px;
+}
+
+#each{
+    font-size: 18px;
+    font-weight: bold;
+   
 }

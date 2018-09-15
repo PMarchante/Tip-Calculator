@@ -26,7 +26,7 @@
                 </label>
 
                 <p id="tip-label" class="slider">Tip amount</p>
-                <input type="range" class="slider" id="tip-amount" min="0" max="50" value="10" step="1">
+                <input type="range" class="slider" id="tip-amount" min="1" max="50" value="10" step="1">
                 <p class="slider" id="tip-percent"></p>
                 <label>%</label><br>
                 
@@ -45,10 +45,11 @@
         <div id="total-tip">
 
             <!-- this is a super-script -->
-            <sup>$</sup><span id="tip">0.00</span><br>
-            <small id="each">each</small>
+            <sup>$</sup><span id="tip"></span>
+            
         </div><!-- end total-tip div -->
-
+        
+        <small id="each">each</small>
 
     </div><!-- end container -->
 
