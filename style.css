@@ -37,6 +37,15 @@ form{
 }
 #tip-amount{
     width: 100px;
+    height: 15px;
+    appearance: none;
+    outline: none;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#tip-amount::-webkit-slider-thumb{
+    width: 25px;
+    background: green;
 }
 .slider{
     display: inline;
@@ -98,3 +107,5 @@ button:active{
     font-weight: bold;
    
 }
+
+
